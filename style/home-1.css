@@ -1,60 +1,99 @@
-body {
+.marginless-body {
 	background-color: #455a64;
+	margin: 0;
 }
-#content {
+
+.content {
 	background-color: #607d8b;
-	padding-left: 21%;
-	padding-right: 21%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 
-#big-header {
-	font-family: "Segoe UI",non-serif;
+.big-header {
+	font-family: "Segoe UI","Noto Sans","Helvetica",non-serif;
 	font-weight: 200;
 	color: #ffffff;
-
+	margin-top: 0;
 }
 
-#description {
-	font-family: "Segoe UI",non-serif;
+.description {
+	font-family: "Segoe UI","Noto Sans","Helvitca",non-serif;
 	font-weight: 200;
 	color: #ffffff;
 }
 
-#button-box {
-	padding-top: 8px;
-} 
+.icon-row {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
 
-.img-button {
-	width: 120px;
-	height: 120px;
-	display: inline;
-	padding: 5px;
-	opacity: 0.75;
+.icon-component {
+	/* background-color: rgb(48, 48, 48); */
+	border-radius: 1em;
+	margin: 0px 2px 0px 2px;
+	width: 130px;
+	height: 160px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.circle {
+	border-radius: 50%;
+	height: 110px;
+	width: 110px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
 	transition: 0.2s;
-	background-color: #455a64;
-	border-radius: 25px;
 }
 
-.button-lbl {
-	height: 20px;
-	width: 120px;
-	display: inline-block;
-	padding: 5px;
-	background-color: #455a64;
+.circle :hover {
+	box-shadow: 2px 2px 5px 0px rgba(50,50,50,1);
+}
+
+.letter {
+	box-shadow: none !important;
+	font-family: "Segoe UI","Noto Sans","Helvetica",non-serif;
+	font-size: 60px;
 	color: #fff;
-	font-family: "Segoe UI",non-serif;
-	font-weight: 200;
-	text-align: center;
-	overflow: auto;
-	text-decoration: none;
-	border-radius: 25px;
-	overflow: hidden;
+	align-self: center;
 }
 
-a .button-lbl {
-	text-decoration: none;
+.margin-box {
+	margin: 10px 0 0 0;
 }
 
-.img-button:hover {
-	opacity: 1;
+.caption-box {
+	border-radius: 1em;
+	
+	width: 110px;
+	height: 2em;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+.caption-box :hover {
+	box-shadow: 2px 2px 5px 0px rgba(50,50,50,1);
+}
+
+.caption {
+	box-shadow: none !important;
+	font-family: "Segoe UI","Noto Sans","Helvetica",non-serif;
+	color: #fff;
+}
+
+.google {
+	background-color: #4285f4;
 }
