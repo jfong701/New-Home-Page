@@ -16,12 +16,14 @@
 	font-weight: 200;
 	color: #ffffff;
 	margin-top: 0;
+	text-align: center;
 }
 
 .description {
 	font-family: "Segoe UI","Noto Sans","Helvitca",non-serif;
 	font-weight: 200;
 	color: #ffffff;
+	text-align: center;
 }
 
 .icon-row {
@@ -85,7 +87,7 @@
 }
 
 .caption-box :hover {
-	box-shadow: 2px 2px 5px 0px rgba(50,50,50,1);
+	/* box-shadow: 2px 2px 5px 0px rgba(50,50,50,1); */
 }
 
 .caption {
@@ -94,6 +96,23 @@
 	color: #fff;
 }
 
+/* Colours */
 .google {
 	background-color: #4285f4;
+}
+
+.facebook {
+	background-color: #46629e;
+}
+
+.outlook {
+	background-color: #005da6;
+}
+
+.youtube {
+	background-color: #ff0000;
+}
+
+.github {
+	background-color: #24292e;
 }
