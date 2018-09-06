@@ -1,34 +1,101 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="style/home-1.css">
-        <title>Home Page 1</title>
 
-    </head>
-    <body>
-        <div id="content">
-            <h1 id="big-header">Home Page</h1>
-            <p id="description">Welcome to the home page.
-                <br>
-                Please click an icon below to go to a website.
-            </p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/home-1.css">
+    <title>Home Page 1</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+</head>
 
-            <div id="button-box">
-                <a href="https://www.google.ca"><img src="images/google-logo.png" class="img-button" alt="Google Logo"></img></a>
-                <a href="https://www.facebook.com"><img src="images/facebook-logo.png" class="img-button" alt="Facebook Logo"></img></a>
-                <a href="https://www.hotmail.com"><img src="images/outlook-logo.png" class="img-button" alt="Hotmail Logo"></img></a>
-                <a href="https://www.youtube.com"><img src="images/youtube-logo.png" class="img-button" alt="Youtube Logo"></img></a>
-				<a href="https://www.github.com"><img src="images/github-logo.png" class="img-button" alt="Github Logo"></img></a>
+<body class="marginless-body">
+    <div class="content">
+        <h1 class="big-header">Welcome to your home page</h1>
+        <p class="description">Please click an icon to go its website.</p>
+
+        <div class="icon-row">
+            <!--Google-->
+            <div class="icon-component">
+                <a class="circle" href="https://www.google.ca/">
+                    <div class="circle google">
+                        <!-- <span class="letter">G</span> -->
+                        <i class="fab fa-google letter"></i>
+                    </div>
+                </a>
+                <div class="margin-box"></div>
+                <a class="caption-box google" href="https://www.google.ca/">
+                    <div class="caption-box">
+                        <span class="caption">Google</span>
+                    </div>
+                </a>
             </div>
-            <div>
-                <a href="https://www.google.ca" class="button-lbl">Google</a>
-                <a href="https://www.facebook.com" class="button-lbl">Facebook</a>
-                <a href="https://www.hotmail.com" class="button-lbl">Outlook</a>
-                <a href="https://www.youtube.com" class="button-lbl">Youtube</a>
-				<a href="https://www.github.com" class="button-lbl">Github</a>
-            </div>   
+
+            <!--Facebook-->
+            <div class="icon-component">
+                <a class="circle" href="https://www.facebook.com/">
+                    <div class="circle facebook">
+                        <i class="fab fa-facebook-f letter"></i>
+                    </div>
+                </a>
+                <div class="margin-box"></div>
+                <a class="caption-box facebook" href="https://www.facebook.com/">
+                    <div class="caption-box">
+                        <span class="caption">Facebook</span>
+                    </div>
+                </a>
+            </div>
+
+
+            <!--Outlook-->
+            <div class="icon-component">
+                <a class="circle" href="https://outlook.live.com/owa/">
+                    <div class="circle outlook">
+                        <i class="fab fa-microsoft letter"></i>
+                    </div>
+                </a>
+                <div class="margin-box"></div>
+                <a class="caption-box outlook" href="https://outlook.live.com/owa/">
+                    <div class="caption-box">
+                        <span class="caption">Outlook</span>
+                    </div>
+                </a>
+            </div>
+
+            <!--Youtube-->
+            <div class="icon-component">
+                <a class="circle" href="https://www.youtube.com/">
+                    <div class="circle youtube">
+                        <i class="fab fa-youtube letter"></i>
+                    </div>
+                </a>
+                <div class="margin-box"></div>
+                <a class="caption-box youtube" href="https://www.youtube.com/">
+                    <div class="caption-box">
+                        <span class="caption">Youtube</span>
+                    </div>
+                </a>
+            </div>
+
+            
+            <!--Github-->
+            <div class="icon-component">
+                    <a class="circle" href="https://github.com/">
+                        <div class="circle github">
+                            <i class="fab fa-github letter"></i>
+                        </div>
+                    </a>
+                    <div class="margin-box"></div>
+                    <a class="caption-box github" href="https://github.com/">
+                        <div class="caption-box">
+                            <span class="caption">Github</span>
+                        </div>
+                    </a>
+                </div>
+
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
