@@ -1,14 +1,16 @@
 .marginless-body {
-	background-color: #455a64;
+	background-color: #3b4c55;
 	margin: 0;
 }
 
 .content {
-	background-color: #607d8b;
+	background-color: #455a64;
+	/* background: linear-gradient(#455a64, #3b4c55); */
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 15%;
 	padding-right: 15%;
+	padding-bottom: 15%;
 }
 
 .big-header {
@@ -20,7 +22,7 @@
 }
 
 .description {
-	font-family: "Segoe UI","Noto Sans","Helvitca",non-serif;
+	font-family: "Segoe UI","Noto Sans","Helvetica",non-serif;
 	font-weight: 200;
 	color: #ffffff;
 	text-align: center;
